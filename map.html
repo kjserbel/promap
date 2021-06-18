@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC " ulterior ">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Ulterior</title>
+    <style>
+    *{ margin: 0; padding: 0; }
+    html, body, #map{
+        width: 100%;
+        height: 100%;
+    }
+    img{ border: 0; }
+ 
+    .contentMap{
+        width: 250px;
+        border: 0px solid #336699;
+        max-height:150px;
+        overflow:auto;
+    }
+    .contentImg{
+        float: left;
+        width: 250px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    .contentImg a{
+        color: #369;
+        font-size: 12px;
+    }
+    .contentTxt{
+        float: down;
+        width: 250px;
+    }
+    .clear{ clear: both; }
+    </style>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=es"></script>
+    <script type="text/javascript" src="map.js"></script>
+</head>
+<body>
+    <div id="map"></div>
+</body>
+</html>
